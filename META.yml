@@ -28,7 +28,7 @@ no_index:
 provides:
   Locale::Scope:
     file: lib/Locale/Scope.pm
-    version: '0.01'
+    version: '0.02'
 requires:
   POSIX: '0'
   parent: '0'
@@ -37,4 +37,4 @@ resources:
   bugtracker: https://github.com/karupanerura/Locale-Scope/issues
   homepage: https://github.com/karupanerura/Locale-Scope
   repository: git://github.com/karupanerura/Locale-Scope.git
-version: '0.01'
+version: '0.02'
