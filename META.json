@@ -28,9 +28,7 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "CPAN::Meta" : "0",
-            "CPAN::Meta::Prereqs" : "0",
-            "Module::Build" : "0.38"
+            "Module::Build::Tiny" : "0.035"
          }
       },
       "develop" : {
@@ -44,21 +42,20 @@
       },
       "runtime" : {
          "requires" : {
-            "POSIX" : "0",
             "parent" : "0",
             "perl" : "5.008005"
          }
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0.98"
+            "Test::More" : "0"
          }
       }
    },
    "provides" : {
       "Locale::Scope" : {
          "file" : "lib/Locale/Scope.pm",
-         "version" : "0.02"
+         "version" : "0.03"
       }
    },
    "release_status" : "stable",
@@ -72,5 +69,5 @@
          "web" : "https://github.com/karupanerura/Locale-Scope"
       }
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }
